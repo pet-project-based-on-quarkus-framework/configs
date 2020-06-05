@@ -2,7 +2,7 @@
 # ====================================================== Prod Mode =====================================================
 # ======================================================================================================================
 # ======================================= Configuration of Database Connection.
-quarkus.datasource.url=jdbc:postgresql://172.17.0.2:30501/quarkus-user-service-db
+quarkus.datasource.url=jdbc:postgresql://172.18.0.2:30501/quarkus-user-service-db
 quarkus.datasource.driver=org.postgresql.Driver
 quarkus.datasource.username=developer
 quarkus.datasource.password=strong_password
@@ -40,7 +40,7 @@ quarkus.swagger-ui.path=/swaggerUI
 # ====================================================== Dev Mode ======================================================
 # ======================================================================================================================
 # ======================================== Configuration Database Connection.
-%dev.quarkus.datasource.url=jdbc:postgresql://172.17.0.3:30503/quarkus-user-service-db
+%dev.quarkus.datasource.url=jdbc:postgresql://172.18.0.3:30503/quarkus-user-service-db
 %dev.quarkus.datasource.driver=org.postgresql.Driver
 %dev.quarkus.datasource.username=developer
 %dev.quarkus.datasource.password=strong_password
